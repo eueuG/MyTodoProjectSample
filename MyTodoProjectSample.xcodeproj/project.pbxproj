@@ -107,8 +107,7 @@
 				0C776768266B6B9A00F6913B /* SceneDelegate.swift */,
 				0C77676A266B6B9A00F6913B /* ViewController.swift */,
 				0C77676C266B6B9A00F6913B /* Main.storyboard */,
-				0C776799266B6D2200F6913B /* TodoCell.swift */,
-				0C77679E266B6D2F00F6913B /* TodoCell.xib */,
+				0C7767A3266B6E8300F6913B /* TodoCell */,
 				0C77676F266B6B9C00F6913B /* Assets.xcassets */,
 				0C776771266B6B9C00F6913B /* LaunchScreen.storyboard */,
 				0C776774266B6B9C00F6913B /* Info.plist */,
@@ -132,6 +131,15 @@
 				0C77678A266B6B9D00F6913B /* Info.plist */,
 			);
 			path = MyTodoProjectSampleUITests;
+			sourceTree = "<group>";
+		};
+		0C7767A3266B6E8300F6913B /* TodoCell */ = {
+			isa = PBXGroup;
+			children = (
+				0C77679E266B6D2F00F6913B /* TodoCell.xib */,
+				0C776799266B6D2200F6913B /* TodoCell.swift */,
+			);
+			path = TodoCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
