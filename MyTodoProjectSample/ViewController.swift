@@ -16,6 +16,8 @@ class ViewController: UIViewController, UITableViewDelegate {
         // Do any additional setup after loading the view.
         tableView.delegate = self
         tableView.dataSource = self
+        
+        tableView.register(TodoCell.nib, forCellReuseIdentifier: TodoCell.identifier)
     }
 
 }
@@ -26,7 +28,8 @@ extension ViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let cell = tableView.dequeueReusableCell(withIdentifier: TodoCell.identifier, for: indexPath)
+        return cell
     }
     
     
